@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulaire Banzai</title>
+  </head>
+  <body>
+    <div>
+      <form>
+        <h1>Propose un nouveau goût</h1>
+
+        <h3>1/10 Comment s’appelle ton goût ? :</h3>
+
+        <input id="text" type="text" placeholder="nom du goût..." required />
+
+        <h2>Goûts</h2>
+
+        <h3>2/10 Quels sont les ingrédients principaux ? :</h3>
+
+        <input id="text" type="text" placeholder="1..." required />
+        <input id="text" type="text" placeholder="2..." required />
+        <input id="text" type="text" placeholder="3..." required />
+
+        <h3>3/10 Ton goût est plutôt :</h3>
+
+        <label>
+          <input type="radio" name="gout" value="tres-epice" />
+          Très épicé
+        </label>
+
+        <label
+          <input type="radio" name="gout" value="épicé" />
+          Epicé
+        </label>
+
+        <label
+          <input type="radio" name="gout" value="doux" />
+          Doux
+        </label>
+
+        <label>
+          <input type="radio" name="gout" value="sucré-salé" />
+          Sucré-salé
+        </label>
+
+        <label>
+          <input type="radio" name="gout" value="Acidulé" />
+          Acidulé
+        </label>
+
+        <label>
+          <input type="radio" name="gout" value="Frais" />
+          Frais
+        </label>
+
+        <h2>Couleurs</h2>
+
+        <h3>4/10 Quelles couleurs représentent ton goût ? :</h3>
+
+        <input type="color" name="couleur-principale" value="Brown" required />
+
+        <input type="color" name="couleur-secondaire" value="Pink" required />
+
+        <input type="color" name="3e couleur" />
+
+        <h2>Personnage</h2>
+
+        <h3>5/10 Comment s’appelle ton personnage ? :</h3>
+
+        <input id="text" type="text" placeholder="Son prénom..." required />
+
+        <h3>6/10 Quel est son style ? :</h3>
+
+        <label>
+          <input type="radio" name="style" value="Ninja" />
+          Ninja
+        </label>
+
+        <label>
+          <input type="radio" name="style" value="Dragon" />
+          Dragon
+        </label>
+
+        <label>
+          <input type="radio" name="style" value="Futuriste" />
+          Futuriste
+        </label>
+
+        <label>
+          <input type="radio" name="style" value="Tropical" />
+          Tropical
+        </label>
+
+        <label>
+          <input type="radio" name="style" value="Urbain" />
+          Urbain
+        </label>
+
+        <h3>7/10 Décris ton goût/personnage en une phrase :</h3>
+
+        <input id="text" type="text" textarea="Ta phrase..." />
+
+        <h3>8/10 Tu as une référence visuelle ?</h3>
+
+        <input type="file" id="image" name="image" accept="image/*" />
+
+        <h3>9/10 Laisse ton email :</h3>
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="exemple@mail.com"
+          required
+        />
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </body>
+</html>
