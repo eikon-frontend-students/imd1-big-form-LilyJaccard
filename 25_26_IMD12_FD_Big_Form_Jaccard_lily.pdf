@@ -1,0 +1,82 @@
+## Choix CSS 1 — Box Model
+
+**Notion utilisée:**
+J'ai utilisée la pseudo classe :Hover pour changer l’apparence d’un élément 
+lorsque l’utilisateur passe la souris dessus
+
+**Où dans mon code:**
+Tout a la fin de mon css
+
+**Extrait:**
+button:hover {
+  transform: scale(1.03);
+}
+
+**Effet sur le rendu:**
+Cela rajoute un élément dynamique et insite a cliquer dessus
+
+## Choix CSS 2 — Box Model
+
+**Notion utilisée:**
+J'ai utilisée la pseudo-classe :focus pour modifier 
+l'apparence d'un champ lorsqu'il est sélectionné
+
+**Où dans mon code:**
+Sur les champs input
+
+**Extrait:**
+input:focus {
+  border: 2px solid blue;
+}
+
+**Effet sur le rendu:**
+Cela met en évidence le champ actif et aide l'utilisateur à savoir où il écrit.
+
+## Choix CSS 3 — Box Model
+
+**Notion utilisée:**
+J'ai utilisée la pseudo-classe :required pour cibler les champs obligatoires
+
+**Où dans mon code:**
+Sur les input contenant l'attribut required
+
+**Extrait:**
+input:required {
+  border-left: 4px solid red;
+}
+
+**Effet sur le rendu:**
+Cela permet d'identifier rapidement les champs qui doivent être remplis
+
+# Choix CSS 4 — Box Model
+
+**Notion utilisée:**
+J'ai utilisée la pseudo-classe :checked pour modifier l'apparence d'un bouton radio lorsqu'il est sélectionné
+
+**Où dans mon code:**
+Sur les boutons radio des sections "Goût" et "Style"
+
+**Extrait:**
+input[type="radio"]:checked {
+  accent-color: green;
+}
+
+**Effet sur le rendu:**
+Cela permet de voir plus facilement quelle option a été choisie
+
+
+# Choix CSS 5 — Box Model
+
+**Notion utilisée:**
+J'ai utilisée la pseudo-classe :valid pour vérifier si une valeur saisie est correcte
+
+**Où dans mon code:**
+Sur le champ email
+
+**Extrait:**
+input:valid {
+  border: 2px solid green;
+}
+
+**Effet sur le rendu:**
+Cela indique visuellement à l'utilisateur que les informations saisies sont valides
